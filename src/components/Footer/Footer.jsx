@@ -1,14 +1,15 @@
 import React from "react";
 import "./footer.css";
 import america from '../../assets/americanFlag.avif';
-// import instagramLogo from '../../assets/instagramLogo.png'; // Replace with actual path
-// import linkedinLogo from '../../assets/linkedinLogo.png'; // Replace with actual path
-// import bankImages from '../../assets/bankImages.png'; // Replace with actual path
+import { PiLinkedinLogoDuotone } from "react-icons/pi";
+import { FaInstagram } from "react-icons/fa6";
+import bankImages from '../../assets/banks.jpg'; 
 
 function Footer() {
   return (
     <>
-      <footer className="footer">
+      <footer>
+        <div  className="footer">
         <div className="footer-left">
           <h3 className="footer-heading">BE THE FIRST TO KNOW</h3>
           <p>Sign up for updates from mettā muse.</p>
@@ -32,10 +33,15 @@ function Footer() {
           <small>
             Transactions will be completed in Euros and a currency reference is available on hover.
           </small>
+          
         </div>
-      </footer>
+        
+        </div>
+        
       <hr className="footer-divider" />
+      
       <div className="footer-bottom">
+      
         <div className="footer-bottom-section">
           <h3 className="footer-bottom-heading">mettā muse</h3>
           <ul className="footer-bottom-list">
@@ -62,13 +68,15 @@ function Footer() {
         <div className="footer-bottom-section">
           <h3 className="footer-bottom-heading">FOLLOW US</h3>
           <div className="footer-social-media">
-            <img src='{instagramLogo}' alt="Instagram" className="social-logo" />
-            <img src='{linkedinLogo}' alt="LinkedIn" className="social-logo" />
+            <FaInstagram className="social-logo" />
+            <PiLinkedinLogoDuotone className="social-logo" />
           </div>
-          <p>mettā muse Accepts</p>
-          <img src='{bankImages}' alt="Payment methods" className="bank-images" />
+          <p >mettā muse Accepts</p>
+          <img src={bankImages} alt="Payment methods" className="bank-images" />
         </div>
       </div>
+      <div className="copy-right">Copyright © 2023 mettamuse. All rights reserved.</div>
+      </footer>
     </>
   );
 }

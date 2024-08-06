@@ -5,6 +5,7 @@
     padding: 20px 0 20px 0;
     border-bottom: 1px solid #cfcbcbfb;
     border-top: 1px solid #cfcbcbfb;
+    flex-wrap: wrap;
 }
 .number-of-item {
     margin-right: 50px;
