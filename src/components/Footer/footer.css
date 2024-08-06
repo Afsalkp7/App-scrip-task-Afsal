@@ -15,13 +15,15 @@
   .footer-heading {
     margin: 0 0 30px 0;
   }
-
+  
   .footer-sub-heading {
     margin: 0px 0 10px 0;
   }
+  
   .footer-paragraph {
     margin-bottom: 10px;
   }
+  
   .subscribe {
     display: flex;
     align-items: center;
@@ -54,7 +56,56 @@
     color: black;
     border: 1px solid black;
   }
+  
   .american-flag {
     width: 20px;
     border-radius: 3px;
   }
+  
+  .footer-divider {
+    border: none;
+    border-top: 1px solid #cfcbcbfb;
+    margin: 20px 0;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+    background-color: black;
+    color: white;
+  }
+  
+  .footer-bottom-section {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .footer-bottom-heading {
+    margin: 0 0 10px 0;
+  }
+  
+  .footer-bottom-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-bottom-list li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-social-media {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .social-logo {
+    width: 30px;
+  }
+  
+  .bank-images {
+    width: 200px; /* Adjust as needed */
+  }
+  
