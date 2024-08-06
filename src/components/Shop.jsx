@@ -7,6 +7,7 @@ import axios from 'axios'
 function Shop() {
   const [productsFromApi,setProductsFromApi] = useState([])
   const [showFilter,setShowFilter] = useState(false)
+  const [showRecommended,setShowRecommended] = useState(false)
 
 
     useEffect(() => {
@@ -25,7 +26,7 @@ function Shop() {
     <>
 
     <Text />
-    <ItemBar  showFilter={showFilter} setShowFilter={setShowFilter} productsFromApi={productsFromApi} setProductsFromApi={setProductsFromApi}/>
+    <ItemBar  showFilter={showFilter} setShowFilter={setShowFilter} productsFromApi={productsFromApi} setProductsFromApi={setProductsFromApi} showRecommended={showRecommended} setShowRecommended={setShowRecommended}/>
     <Products showFilter={showFilter} productsFromApi={productsFromApi} setProductsFromApi={setProductsFromApi}/>
     </>
   )
