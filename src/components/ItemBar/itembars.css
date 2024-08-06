@@ -30,12 +30,12 @@
 
 .recommended {
     cursor: pointer;
-    position: relative; /* Ensure it positions relative to its parent */
+    position: relative; 
 }
 
 .recommended-content {
     display: none;
-    position: absolute; /* Absolute positioning within the parent */
+    position: absolute; 
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     min-width: 180px;
