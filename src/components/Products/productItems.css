@@ -4,6 +4,7 @@
     height: 350px;
     padding: 10px;
     box-sizing: border-box;
+
 }
 
 .products-main-div {
@@ -11,6 +12,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    min-height: 100vh;
     margin-bottom: 50px;
 }
 
@@ -33,3 +35,34 @@
     font-size: 12px;
     font-weight: lighter;
 }
+
+.products-shop{
+    display: flex;
+}
+.side-nav-for-filter{
+    padding-left: 50px;
+
+}
+.category-button{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    width: 180px;
+    margin-top: 20px;
+}
+.category-button.selected {
+    background-color: #f0f0f0;
+    border-color: #000; 
+    font-weight: bold; 
+  }
+
+  .show {
+    transition: 2s;
+    display: block;
+  }
+  .notShow {
+    display: none;
+  }

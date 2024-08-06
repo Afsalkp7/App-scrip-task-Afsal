@@ -10,6 +10,7 @@
     margin-right: 50px;
 }
 .filter-message {
+    cursor: pointer;
     color: rgb(155, 155, 155);
 }
 
