@@ -50,7 +50,15 @@ function ItemBar({ productsFromApi, setProductsFromApi, showFilter, setShowFilte
                     <span className='filter-message-sm' onClick={() => setShowFilter(!showFilter)}>FILTER</span>
                 </div>
                 <div>
-                    <span>RECOMMENDED <FaAngleDown /></span>
+                    <span className='recommended' onClick={() => setShowRecommended(!showRecommended)}>
+                        RECOMMENDED <FaAngleDown />
+                    </span>
+                    <div className={`recommended-content ${showRecommended ? 'show' : ''}`}>
+                        <span onClick={() => handleSorting('high-to-low')}>PRICE : HIGH TO LOW</span><br />
+                        <span onClick={() => handleSorting('low-to-high')}>PRICE : LOW TO HIGH</span><br />
+                        <span onClick={() => handleSorting('none')}>POPULAR</span><br />
+                        <span onClick={() => handleSorting('none')}>NEWEST FIRST</span>
+                    </div>
                 </div>
             </div>
         </>
