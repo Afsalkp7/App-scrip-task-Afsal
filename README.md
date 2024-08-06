@@ -1,12 +1,12 @@
-# App-scrip
+# 📦 App-scrip
 **Ecommerce Frontend App**
 
-## Requirements
+## 📝 Requirements
 
 1. **Implementation**:
-   - Implement the code using HTML & CSS.
-   - Develop the functional page in React.JS.
-   - Ensure the page is responsive for mobile & tablet devices.
+   - Implement the code using **HTML** & **CSS**.
+   - Develop the functional page in **React.JS**.
+   - Ensure the page is responsive for **mobile** & **tablet** devices.
 
 2. **Evaluation Criteria**:
    - **Code Structure**: Evaluate the organization and clarity of your code.
@@ -23,14 +23,15 @@
    - **Image Names**: Use SEO-friendly names for all images.
    - **Alt Text**: Include descriptive alt text for all images to improve accessibility and SEO.
 
-4. **Live Server**:
+
+4. **🌐Live Server**:
    - [App-scrip Live Server](https://app-scrip-chi.vercel.app/)
 
-5. **Git Repository**:
+5. **🎫Git Repository**:
    - [GitHub Repository](https://github.com/Afsalkp7/App-scrip-task-Afsal)
 
 
-## Setup Instructions
+## 🚀 Setup Instructions
 
 1. **Clone the Repository**:
    ```bash
