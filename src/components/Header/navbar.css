@@ -24,9 +24,11 @@
 
 .navItems ul li {
     font-size: 23px;
-    font-weight: bold;
 }
-
+a {
+    text-decoration: none;
+    color: black;
+}
 .navList {
     display: flex;
     justify-content: space-around;

@@ -39,7 +39,7 @@ function Products({ productsFromApi, setProductsFromApi , showFilter}) {
     <>
       <div className="products-shop">
         <div className={`side-nav-for-filter ${showFilter?'show':'notShow'}`}>
-          <h2>Filter by<br /> categories</h2>
+          <h3>Filter by<br /> categories</h3>
           {categoriesArray.length > 0 ? (
             categoriesArray.map((category, index) => (
               <CategoryButton
