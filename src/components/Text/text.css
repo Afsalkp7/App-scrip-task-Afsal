@@ -1,0 +1,24 @@
+.text-main {
+    text-align: center;
+    padding: 60px 100px 100px 100px;
+}
+.text-heading {
+    font-size: 30px;
+}
+.text-paragraph {
+    font-size: 15px;
+}
+
+@media (max-width: 864px){
+    .text-main {
+        text-align: center;
+        padding: 60px 50px 50px 60px;
+    }
+}
+
+@media (max-width: 422px){
+    .text-main {
+        text-align: center;
+        padding: 60px 10px 10px 10px;
+    }
+}

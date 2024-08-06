@@ -1,0 +1,27 @@
+.item-bar-main {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #cfcbcbfb;
+    border-top: 1px solid #cfcbcbfb;
+}
+.number-of-item {
+    margin-right: 50px;
+}
+.filter-message {
+    color: rgb(155, 155, 155);
+}
+
+.small-screen {
+    display: none;
+}
+
+@media (max-width: 864px){
+    .small-screen {
+        display: flex;
+    }
+    .large-screen {
+        display: none;
+    }
+}

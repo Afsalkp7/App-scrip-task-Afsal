@@ -1,0 +1,60 @@
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-left, .footer-right {
+    flex: 1;
+  }
+  
+  .footer-heading {
+    margin: 0 0 30px 0;
+  }
+
+  .footer-sub-heading {
+    margin: 0px 0 10px 0;
+  }
+  .footer-paragraph {
+    margin-bottom: 10px;
+  }
+  .subscribe {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .email-input {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    flex: 1;
+  }
+  
+  .email-input::placeholder {
+    color: #aaa;
+  }
+  
+  .subscribe-button {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .subscribe-button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+  .american-flag {
+    width: 20px;
+    border-radius: 3px;
+  }
