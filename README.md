@@ -1,5 +1,5 @@
 # 📦 App-scrip
-**Ecommerce Frontend App**
+**Ecommerce Frontend App Using Free Api**
 
 ## 📝 Requirements
 
