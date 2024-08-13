@@ -1,7 +1,7 @@
 # 📦 App-scrip
 **Ecommerce Frontend App Using Free Api**
 
-## 📝 Requirements
+## 📝 Contents
 
 1. **Implementation**:
    - Implement the code using **HTML** & **CSS**.
